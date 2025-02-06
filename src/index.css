@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+.counter-container,
+.form-container,
+.editor-container,
+.userId-container {
+  border: 1px solid #40a6e2;
+  border-radius: 20px;
+  height: fit-content;
+  padding: 40px;
+  margin: 10px;
+  width: fit-content;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  margin: 0px 0px 50px 40px;
+}
+.userId-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 200px;
+}
+.editor-container {
+  margin-top: 50px;
+}
+.counter-container Button,
+.editor-container Button,
+.form-container Button {
+  color: black;
+  background-color: rgb(120, 183, 251);
+  width: fit-content;
+  margin: 10px;
+  align-self: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 500;
+  font-family: Playfair + Display;
+}
+.app-container {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  border-radius: 50px;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  font-family: Comfortaa;
+  margin: 10px 130px 0px 130px;
+}
+h1 {
+  text-align: center;
+  font-family: comfortaa;
+}
